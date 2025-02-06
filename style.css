@@ -17,6 +17,10 @@
     font-style: normal;
 }
 
+main {
+    background-image: url(B11-A2-Kids-School/assets/bg.png);
+}
+
 body {
     max-width: 1440px;
     margin: 0 auto;
@@ -159,7 +163,6 @@ header {
 /* section styles  */
 
 .section-title {
-    background-image: url(B11-A2-Kids-School/assets/bg.png);
     font-weight: 700;
     font-size: 2.875rem;
     color: rgb(0, 0, 0);
@@ -182,6 +185,12 @@ header {
 
 .card img {
     margin-top: 20px;
+}
+
+.card a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
 }
 
 #card-1 {
@@ -212,7 +221,8 @@ header {
 
 .left-right-button {
     text-align: center;
-    margin-top: 100px
+    margin-top: 100px;
+    margin-bottom: 60px;
 }
 
 .left {
@@ -225,6 +235,10 @@ header {
     font-size: 2rem;
 }
 
+.left:hover {
+    background-color: rgb(209, 132, 0);
+}
+
 .right {
     width: 50px;
     height: 50px;
@@ -233,9 +247,18 @@ header {
     border: none;
     border-radius: 50%;
     font-size: 2rem;
+}
 
+.right:hover {
+    background-color: rgb(209, 132, 0);
 }
 
 /* section ends here */
 
-/* our stories */
+/* our stories style */
+
+.story-collage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
