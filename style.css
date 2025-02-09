@@ -256,15 +256,36 @@ header {
 /* section ends here */
 
 /* our stories style */
+
+.story-1 {
+    background-color: wheat;
+    width: 540px;
+    border-radius: 16px;
+}
+
+.story-1 img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
 .date {
-    background-color: rgb(0, 165, 8);
-    color: white;
-    border-radius: 20px;
-    padding: 15px 20px;
-    font-weight: 500;
-    font-size: 1rem;
-    transform: translate(-50%, -92%);
-    top: 60%;
+    position: absolute;
+
+    padding: 15px;
+    background-color: rgba(60, 216, 232, 1);
+    display: unset;
+    border-radius: 50px;
+}
+
+.story-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+
+    margin-bottom: 48px;
+}
+
+.section-content {
+    padding: 38px;
 }
 
 /* .story-collage {
