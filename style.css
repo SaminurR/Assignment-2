@@ -19,6 +19,7 @@
 
 main {
     background-image: url(B11-A2-Kids-School/assets/bg.png);
+
 }
 
 body {
@@ -268,7 +269,7 @@ header {
 }
 
 .story-card {
-    background-color: wheat;
+    background-color: rgb(231, 231, 231);
     border-radius: 16px;
 }
 
@@ -332,9 +333,23 @@ header {
 
 footer {
     background-color: rgba(1, 172, 253, 1);
+    display: flex;
+    justify-content: space-evenly;
+    height: 1024px;
+
+}
+
+.footer-section {
+    width: 1440px;
 }
 
 .about {
-    list-style: none;
+    font-size: 1.25rem;
 
+}
+
+.itms {
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 500;
 }
